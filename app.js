@@ -4,7 +4,7 @@ let intentos = 1;
 let maximoIntentos = 3
 
 function contenidoInicial (){
-    asignarTextoElemento('p', 'Adivina el numero secreto');
+    asignarTextoElemento('p', 'Adivina el numero secreto entre 1 y 10');
     asignarTextoElemento('h1', 'Bienvenido a numero secreto')
     intentos = 1;
     numeroSecreto = generarNumeroSecreto();
